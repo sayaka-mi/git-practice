@@ -83,3 +83,15 @@ git clone https://github.com/ユーザ名/リポジトリ名.git
 ```bash
 git clone https://github.com/sayaka-mi/git-practice.git
 ```
+
+## 13. git pull
+リモートリポジトリで他の人が自分の更新した内容を、ローカルの自分のPCに取り込んで最新の状態にする。
+```bash
+git pull origin ブランチ名
+```
+（例）mainブランチの最新を取り込む場合
+```bash
+git pull origin main
+```
+- 複数のブランチがある場合は作業中のブランチに合わせてリモートの同じブランチを指定する。
+- 異なるブランチの更新は、まずそのブランチに切り替えてからgit pullする。
