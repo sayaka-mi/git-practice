@@ -105,3 +105,17 @@ git branch
 # 新しいブランチを作成（例：feature-branch）
 git branch feature-branch
 ```
+
+## 15. git checkout
+作業するブランチを切り替えるコマンド。
+```bash
+# 既存のブランチに切り替える
+git checkout ブランチ名
+
+# 例：feature-branchに切り替える
+git checkout feature-branch
+
+# 新しいブランチを作りながら切り替える場合
+git checkout -b 新しいブランチ名
+```
+
