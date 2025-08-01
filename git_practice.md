@@ -119,3 +119,13 @@ git checkout feature-branch
 git checkout -b 新しいブランチ名
 ```
 
+## 16. git marge
+別のブランチで作業した変更を、現在のブランチに統合（マージ）する。
+```bash
+# マージ先のブランチに切り替える（例：main）
+git checkout main
+
+# feature-branchの変更をmainにマージする
+git merge feature-branch
+```
+マージ中にコンフリクト（競合）が起きた場合は、手動で修正してコミットが必要。
