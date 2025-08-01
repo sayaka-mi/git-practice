@@ -95,3 +95,13 @@ git pull origin main
 ```
 - 複数のブランチがある場合は作業中のブランチに合わせてリモートの同じブランチを指定する。
 - 異なるブランチの更新は、まずそのブランチに切り替えてからgit pullする。
+
+## 14. git branch
+ブランチの一覧や新しいブランチの作成に使う。
+```bash
+# 現在のブランチ一覧を表示
+git branch
+
+# 新しいブランチを作成（例：feature-branch）
+git branch feature-branch
+```
