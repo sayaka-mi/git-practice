@@ -72,3 +72,14 @@ GitHubのパスワード認証は廃止されており、代わりにPATを使�
 git config --global credential.helper manager-core
 ```
 この設定をすると、初回の認証情報を保存し、以降は入力不要となる。
+
+## 12. git clone
+リモートリポジトリ（GitHub上のもの）を自分のPCに丸ごと複製する。
+初めてリポジトリをローカルにコピーしたいときに使う。
+```bash
+git clone https://github.com/ユーザ名/リポジトリ名.git
+```
+（例）
+```bash
+git clone https://github.com/sayaka-mi/git-practice.git
+```
